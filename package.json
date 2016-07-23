@@ -1,0 +1,36 @@
+{
+  "name": "doraemon-game-versions",
+  "version": "0.0.1",
+  "private": true,
+  "license": "see LICENSE file",
+  "description": "Obtaining versions of Doraemon game.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "express": "^4.14.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build:webpack": "NODE_ENV=production webpack --progress --colors --config webpack.config.prod.js",
+    "build": "npm run build:webpack"
+  },
+  "author": "yoniji",
+  "engines": {
+    "node": "0.12.x"
+  }
+}

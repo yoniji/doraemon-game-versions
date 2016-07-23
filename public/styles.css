@@ -1,0 +1,140 @@
+body {
+  background: #212121;
+  font-family: -apple-system, 'DIN Next Ultra Light', 'Helvetica Neue', Helvetica, Arial, PingFangSC-Regular, 'Lantinghei SC', 'Hiragino Sans GB',STHeiti,'Noto Sans S Chinese','Microsoft Yahei','Microsoft Sans Serif','WenQuanYi Micro Hei',sans-serif;
+  color:white;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,li {
+  padding: 0;
+  margin:0;
+}
+
+.header {
+  padding: 20px;
+}
+
+.caption {
+  color:#999;
+  font-size: 14px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1em;
+  padding: 0;
+  margin:0 0 10px 0;
+}
+
+p {
+  margin:0;
+}
+
+.filterItem {
+  width:25%;
+  float: left;
+  display: inline-block;
+  padding:20px;
+}
+
+.filterName {
+  font-weight: normal;;
+  font-size: 14px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+  text-align: center;
+  padding: 10px;
+  margin:0;
+  border-radius: 4px 4px 0 0;
+  background-color: #727272;
+}
+
+
+.filterItem:first-child .filterName{
+  background-color: #CDDC39;
+}
+
+.filterItem:first-child .versionItem:first-child {
+  background-color: #FFF9C4;
+}
+
+.filterItem:nth-child(2) .filterName{
+  background-color: #FBC02D;
+}
+
+.filterItem:nth-child(3) .filterName{
+  background-color: #00BCD4;
+}
+
+.filterItem:nth-child(4) .filterName{
+  background-color: #9C27B0;
+}
+
+
+.versionItem {
+  color:#212121;
+  padding: 10px;
+  position: relative;
+}
+
+.versionItem:nth-child(even) {
+  background-color: #E0E0E0;
+}
+
+.versionItem:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.versionItem:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.versionName {
+  font-size: 18px;
+}
+
+.download {
+  padding-top:5px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+}
+
+.downloadBtn {
+  display: inline-block;
+  text-align: center;
+  padding:0 10px;
+  height: 24px;
+  line-height: 24px;
+  background-color: #777;
+  color:white;
+  text-decoration: none;
+
+  font-size: 14px;
+}
+.downloadBtn:first-child {
+  border-radius:2px 0 0 2px;
+}
+.downloadBtn:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+.download-ios {
+  background-color: #555;
+}
+
+.download-android {
+  background-color: #CDDC39;
+}
+
+.download-server {
+  background-color: #00BCD4;
+}
+
+.createdAt {
+  font-size: 10px;
+  color:#999;
+}

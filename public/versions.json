@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "filterName": "Stable Releases",
+    "versions": [
+      {
+        "id":11,
+        "versionName": "1.10.2",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:32 GMT+0800 (CST)"
+      },
+      {
+        "id":10,
+        "versionName": "1.10.1",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "filterName": "Snapshot Preview",
+    "versions": [
+      {
+        "id":21,
+        "versionName": "16w1.10.2",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:32 GMT+0800 (CST)"
+      },
+      {
+        "id":20,
+        "versionName": "w621.10.1",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "filterName": "Beta",
+    "versions": [
+      {
+        "id":31,
+        "versionName": "b1.10.2",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:32 GMT+0800 (CST)"
+      },
+      {
+        "id":30,
+        "versionName": "b1.10.1",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "filterName": "Alpha",
+    "versions": [
+      {
+        "id":31,
+        "versionName": "a1.10.2",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:32 GMT+0800 (CST)"
+      },
+      {
+        "id":30,
+        "versionName": "a1.10.1",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      }
+    ]
+  }
+]
