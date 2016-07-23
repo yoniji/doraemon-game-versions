@@ -30,16 +30,14 @@ npm run build
 
 ## 开发
 
-运行
+运行以下命令，即可在 <http://localhost:3000/> 实时查看效果
 
 ```sh
 npm start
 ```
 
-访问 <http://localhost:3000/> 即可
 
-
-## 修改数据来源
+修改数据来源
 
 在 app.js 文件末尾可以找到：
 
