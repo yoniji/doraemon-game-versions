@@ -25,7 +25,7 @@ npm run build
 
 ### 游戏版本数据
 
-输出到 `versions.json｀ 中
+将版本数据输出到与 `index.html` 同目录的 `versions.json` 文件中
 
 
 ## 开发
@@ -37,4 +37,20 @@ npm start
 ```
 
 访问 <http://localhost:3000/> 即可
+
+
+## 修改数据来源
+
+在 app.js 文件末尾可以找到：
+
+```sh
+ReactDOM.render(
+  <VersionsPage url="versions.json" pollInterval={3000} />,
+  document.getElementById('content')
+);
+```
+
+修改 url 属性即可。
+
+此外，pollInterval 属性代表刷新间隔。
 
