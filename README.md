@@ -48,7 +48,7 @@ ReactDOM.render(
 
 ### Build
 
-在命令行中执行
+运行
 
 ```sh
 npm run build
