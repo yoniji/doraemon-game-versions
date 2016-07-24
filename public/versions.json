@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "filterName": "Stable Releases",
+    "filterName": "Tencent",
     "versions": [
       {
         "id":11,
@@ -18,12 +18,28 @@
         "android": "#",
         "server": "#",
         "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      },
+      {
+        "id":12,
+        "versionName": "1.10.4",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
+      },
+      {
+        "id":13,
+        "versionName": "1.10.5",
+        "ios": "#",
+        "android": "#",
+        "server": "#",
+        "createdAt": "Wed May 11 2016 09:36:30 GMT+0800 (CST)"
       }
     ]
   },
   {
     "id": 2,
-    "filterName": "Snapshot Preview",
+    "filterName": "QA",
     "versions": [
       {
         "id":21,
@@ -45,7 +61,7 @@
   },
   {
     "id": 3,
-    "filterName": "Beta",
+    "filterName": "Master",
     "versions": [
       {
         "id":31,
@@ -67,7 +83,7 @@
   },
   {
     "id": 4,
-    "filterName": "Alpha",
+    "filterName": "Develop",
     "versions": [
       {
         "id":31,
