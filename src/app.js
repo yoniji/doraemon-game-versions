@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header';
 import FilterList from './filter-list';
+import Footer from './footer';
 
 
 class VersionsPage extends React.Component {
@@ -26,6 +27,7 @@ class VersionsPage extends React.Component {
     return <div className="page">
       <Header />
       <FilterList data={this.state.data} />
+      <Footer />
     </div>;
   }
 
