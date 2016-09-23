@@ -6,7 +6,7 @@ export function getDate(date) {
     const minute = date.getMinutes();
 
     return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日\
-            ${hour > 10 ? String(hour) : `0${hour}`}:${minute > 10 ? String(minute) : `0${minute}`}`;
+            ${hour > 9 ? String(hour) : `0${hour}`}:${minute > 9 ? String(minute) : `0${minute}`}`;
 }
 
 export function getDuration(date) {
