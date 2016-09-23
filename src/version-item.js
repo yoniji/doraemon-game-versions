@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { getDuration } from './date-helper';
 
 export default class VersionItem extends React.Component {
   render() {
     const createdAt = new Date(Date.parse(this.props.createdAt));
-    const createdAtStr =
-      `${createdAt.getFullYear()} /\
-      ${createdAt.getMonth()} /\
-      ${createdAt.getDate()}\
-      ${createdAt.getHours()}:${createdAt.getMinutes()}:${createdAt.getSeconds()}`;
+    const createdAtStr = getDuration(createdAt);
 
     return <div className="versionItem">
       <div className="versionName">{this.props.children}</div>
