@@ -5,7 +5,7 @@ export function getDate(date) {
     const hour = date.getHours();
     const minute = date.getMinutes();
 
-    return `${date.getFullYear()}年${date.getMonth()}月${date.getDate()}日\
+    return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日\
             ${hour > 10 ? String(hour) : `0${hour}`}:${minute > 10 ? String(minute) : `0${minute}`}`;
 }
 
