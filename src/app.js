@@ -33,7 +33,9 @@ class VersionsPage extends React.Component {
 
   loadCommentsFromServer() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', this.state.url);
+    const now = Date.now();
+
+    xhr.open('GET', `${this.state.url}?timestamp=${now}`);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onload = () => {
       if (xhr.status === 200) {
@@ -49,6 +51,6 @@ class VersionsPage extends React.Component {
 
 
 ReactDOM.render(
-  <VersionsPage url={`versions.json?timestamp=${Date.now()}`} pollInterval={3000} />,
+  <VersionsPage url="versions.json" pollInterval={3000} />,
   document.getElementById('content')
 );
