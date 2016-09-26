@@ -49,6 +49,6 @@ class VersionsPage extends React.Component {
 
 
 ReactDOM.render(
-  <VersionsPage url="versions.json" pollInterval={3000} />,
+  <VersionsPage url={`versions.json?timestamp=${Date.now()}`} pollInterval={3000} />,
   document.getElementById('content')
 );
